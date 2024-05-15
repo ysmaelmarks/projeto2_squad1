@@ -37,6 +37,14 @@ CREATE TABLE `Turma` (
   FOREIGN KEY (`curso_codigo`) REFERENCES `Curso` (`codigo`)
 );
 
+CREATE TABLE `Turma_Facilitador` (
+  `id` int UNIQUE PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `turma_id` int NOT NULL,
+  `facilitador_matricula` int NOT NULL,
+  FOREIGN KEY (`turma_id`) REFERENCES `Turma` (`id`),
+  FOREIGN KEY (`facilitador_matricula`) REFERENCES `Facilitador` (`matricula`)
+);
+
 CREATE TABLE `Estudante` (
   `matricula` int UNIQUE PRIMARY KEY NOT NULL,
   `nome` varchar(255) NOT NULL,
