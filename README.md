@@ -36,7 +36,7 @@ estratégicos para a empresa.
 
 
 ## _**DETALHES DO PROJETO:** <br>_
-● Após a criação do banco de dados, você e sua equipe deverão inserir dados para teste do banco de dados. Vocês deverão executar as consultas abaixo e apresentar seus resultados:
+Após a criação do banco de dados, você e sua equipe deverão inserir dados para teste do banco de dados. Vocês deverão executar as consultas abaixo e apresentar seus resultados:
 1. Selecionar a quantidade total de estudantes cadastrados no banco; <br>
 2. Selecionar quais pessoas facilitadoras atuam em mais de uma turma; <br>
 3. Crie uma view que selecione a porcentagem de estudantes com status de evasão agrupados por turma; <br>
