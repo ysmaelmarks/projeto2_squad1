@@ -20,11 +20,11 @@ VALUES
 (1002, 'Maria Santos', '987-654-321', 'maria.santos@example.com', 'Rua B, 456', '1975-10-20'),
 (1003, 'Carlos Oliveira', '111-222-333', 'carlos.oliveira@example.com', 'Rua C, 789', '1990-03-25');
 
-INSERT INTO `Turma` (`data_inicio`, `data_termino`, `facilitador_matricula`, `curso_codigo`)
+INSERT INTO `Turma` (`data_inicio`, `data_termino`, `curso_codigo`)
 VALUES
-('2024-06-01', '2024-08-30', 1001, 1),
-('2024-07-15', '2024-09-20', 1002, 2),
-('2024-08-10', '2024-10-25', 1003, 3);
+('2024-06-01', '2024-08-30', 1),
+('2024-07-15', '2024-09-20', 2),
+('2024-08-10', '2024-10-25', 3);
 
 INSERT INTO `Turma_Facilitador` (`turma_id`, `facilitador_matricula`)
 VALUES

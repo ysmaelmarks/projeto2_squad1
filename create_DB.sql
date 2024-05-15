@@ -31,9 +31,7 @@ CREATE TABLE `Turma` (
   `id` int UNIQUE PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `data_inicio` DATE NOT NULL,
   `data_termino` DATE NOT NULL,
-  `facilitador_matricula` int NOT NULL,
   `curso_codigo` int NOT NULL,
-  FOREIGN KEY (`facilitador_matricula`) REFERENCES `Facilitador` (`matricula`),
   FOREIGN KEY (`curso_codigo`) REFERENCES `Curso` (`codigo`)
 );
 
