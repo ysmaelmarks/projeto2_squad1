@@ -1,5 +1,5 @@
 ## **Projeto Squad 01 - Date Analytics**
-_Projeto EM Grupo do Módulo 02 - Programadores Cariocas No Mercado Segurador 2024_
+_Projeto Em Grupo do Módulo 02 - Programadores Cariocas No Mercado Segurador 2024_
 
 <br><br>
 
