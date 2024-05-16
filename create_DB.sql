@@ -60,3 +60,12 @@ CREATE TABLE `Turma_Estudante` (
   FOREIGN KEY (`estudante_matricula`) REFERENCES `Estudante` (`matricula`),
   FOREIGN KEY (`turma_id`) REFERENCES `Turma` (`id`)
 );
+
+CREATE TABLE `Log_Status_Evasao` (
+  `id` int AUTO_INCREMENT PRIMARY KEY,
+  `estudante_matricula` int NOT NULL,
+  `data_modificacao` DATETIME NOT NULL,
+  `status_anterior` int NOT NULL,
+  `status_atual` int NOT NULL
+);
+
