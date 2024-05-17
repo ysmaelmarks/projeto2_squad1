@@ -36,13 +36,14 @@ Após a criação do banco de dados, você e sua equipe deverão inserir dados p
 
 **3. Crie uma view que selecione a porcentagem de estudantes com status de evasão agrupados por turma; <br><br>**
 ![pergunta3a](https://github.com/ysmaelmarks/projeto2_squad1/assets/113908290/ec37e0ff-ca2d-418d-b6c8-065b30f702d5)<br>
-### **---------------------------------------------------------------------------------------------------------------------**<br>
+### **-----------------------------------------------------------------------------------------------------**<br>
 ![pergunta3b](https://github.com/ysmaelmarks/projeto2_squad1/assets/113908290/187333ec-7659-4626-85ae-9ce692c9a046)<br><br>
 
 **4. Crie um trigger para ser disparado quando o atributo status de um estudante for atualizado e inserir um novo dado em uma tabela de log. <br><br>**
 ![pergunta4](https://github.com/ysmaelmarks/projeto2_squad1/assets/113908290/ab3044fe-227f-421c-a990-8672d7944958)<br><br>
 
 **5. Além disso, vocês deverão pensar em uma pergunta que deverá ser respondida por uma consulta SQL que combine pelo menos 3 tabelas. <br><br>**
+![pergunta5](https://github.com/ysmaelmarks/projeto2_squad1/assets/113908290/4878ca12-6c02-4605-bcc7-9865aeb6ce84)
 
 <br><br><br>
 
